@@ -8,13 +8,13 @@ Original file is located at
 
 # Building a Simple Chatbot from Scratch in Python (using NLTK)
 
-![Alt text](https://cdn-images-1.medium.com/max/800/1*pPcVfZ7i-gLMabUol3zezA.gif)
+![Alt text](https://github.com/dnzengou/sahly-su-chatbot/blob/master/img/sahly-demo.png?raw=true)
 
-History of chatbots dates back to 1966 when a computer program called ELIZA was invented by Weizenbaum. It imitated the language of a psychotherapist from only 200 lines of code. You can still converse with it here: [Eliza](http://psych.fullerton.edu/mbirnbaum/psych101/Eliza.htm?utm_source=ubisend.com&utm_medium=blog-link&utm_campaign=ubisend). 
+Historien om chatbots går tillbaka till 1966 när ett datorprogram som heter ELIZA uppfanns av Weizenbaum. Den imiterade språket hos en psykoterapeut från endast 200 rader kod. Du kan fortfarande prata med det här: [Eliza](http://psych.fullerton.edu/mbirnbaum/psych101/Eliza.htm?utm_source=ubisend.com&utm_medium=blog-link&utm_campaign=ubisend). 
 
-On similar lines let's create a very basic chatbot utlising the Python's NLTK library.It's a very simple bot with hardly any cognitive skills,but still a good way to get into NLP and get to know about chatbots.
+På liknande linjer, låt oss skapa denna mycket grundläggande chatbot för SU som heter Sahly genom att använda Pythons NLTK-bibliotek. Det är en mycket enkel bot med knappt några kognitiva färdigheter, men ändå ett bra sätt att komma in i NLP och lära känna chatbots.
 
-For detailed analysis, please see the accompanying blog titled:<br>
+För detaljerad analys, se referensbloggen som inspirerade detta projekt:<br>
 [Building a Simple Chatbot in Python (using NLTK](https://medium.com/analytics-vidhya/building-a-simple-chatbot-in-python-using-nltk-7c8c8215ac6e)
 
 ## NLP
@@ -32,6 +32,12 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import warnings
 warnings.filterwarnings('ignore')
+
+# optionally, use Voilà to turn the Jupyter notebook into standalone web applications.
+#!pip install voila
+
+# display html content
+from IPython.core.display import display, HTML
 
 """## Downloading and installing NLTK
 NLTK(Natural Language Toolkit) is a leading platform for building Python programs to work with human language data. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries.
@@ -110,7 +116,7 @@ Next, we shall define a function for a greeting by the bot i.e if a user’s inp
 """
 
 GREETING_INPUTS = ("hej", "hej", "hälsningar", "sup", "vad händer", "hej",)
-GREETING_RESPONSES = ["hej", "hej", "*nickar*", "hej där", "hej", "jag är glad! Du pratar med mig"]
+GREETING_RESPONSES = ["hej", "hej", "hej där", "hej", "jag är glad! Du pratar med mig"]
 def greeting(sentence):
  
     for word in sentence.split():
