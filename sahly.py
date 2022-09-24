@@ -10,7 +10,7 @@ Original file is located at
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dnzengou/sahly-su-chatbot/)
 
-![Alt text](https://github.com/dnzengou/sahly-su-chatbot/blob/master/img/sahly-demo.png?raw=true)
+![Sahly demo](https://raw.githubusercontent.com/dnzengou/sahly-su-chatbot/main/img/sahly-demo.png?token=GHSAT0AAAAAABZFDK6TS6VSH6XJYPWWTVKUYZPLWEQ)
 
 Historien om chatbots går tillbaka till 1966 när ett datorprogram som heter ELIZA uppfanns av Weizenbaum. Den imiterade språket hos en psykoterapeut från endast 200 rader kod. Du kan fortfarande prata med det här: [Eliza](http://psych.fullerton.edu/mbirnbaum/psych101/Eliza.htm?utm_source=ubisend.com&utm_medium=blog-link&utm_campaign=ubisend). 
 
