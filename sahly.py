@@ -8,6 +8,8 @@ Original file is located at
 
 # Building a Simple Chatbot from Scratch in Python (using NLTK)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dnzengou/sahly-su-chatbot/)
+
 ![Alt text](https://github.com/dnzengou/sahly-su-chatbot/blob/master/img/sahly-demo.png?raw=true)
 
 Historien om chatbots går tillbaka till 1966 när ett datorprogram som heter ELIZA uppfanns av Weizenbaum. Den imiterade språket hos en psykoterapeut från endast 200 rader kod. Du kan fortfarande prata med det här: [Eliza](http://psych.fullerton.edu/mbirnbaum/psych101/Eliza.htm?utm_source=ubisend.com&utm_medium=blog-link&utm_campaign=ubisend). 
@@ -37,7 +39,7 @@ warnings.filterwarnings('ignore')
 #!pip install voila
 
 # display html content
-from IPython.core.display import display, HTML
+#from IPython.core.display import display, HTML
 
 """## Downloading and installing NLTK
 NLTK(Natural Language Toolkit) is a leading platform for building Python programs to work with human language data. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries.
@@ -205,4 +207,10 @@ while(flag==True):
     else:
         flag=False
         print("SAHLY: Hejdå! Ta hand om dig..")
+
+# run jypiter notebook on the browser with voila
+# first install web browser for chrome
+!apt install chromium-chromedriver
+
+!voila Sahly.ipynb --enable_nbextensions=True
 
