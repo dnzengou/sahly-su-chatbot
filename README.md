@@ -1,6 +1,6 @@
 # Building a Simple Chatbot from Scratch in Python (using NLTK)
 
-![Alt text](https://github.com/dnzengou/sahly-su-chatbot/blob/master/img/sahly-demo.png?raw=true)
+![Sahly demo](https://github.com/dnzengou/sahly-su-chatbot/blob/master/img/sahly-demo.png?raw=true)
 
 Historien om chatbots går tillbaka till 1966 när ett datorprogram som heter ELIZA uppfanns av Weizenbaum. Den imiterade språket hos en psykoterapeut från endast 200 rader kod. Du kan fortfarande prata med det här: [Eliza](http://psych.fullerton.edu/mbirnbaum/psych101/Eliza.htm?utm_source=ubisend.com&utm_medium=blog-link&utm_campaign=ubisend). 
 
