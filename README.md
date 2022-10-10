@@ -50,8 +50,10 @@ nltk.download('wordnet')
 -->
 
 ## Hur man startar
-<!-- * Jupyter Notebook [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dnzengou/sahly-su-chatbot/master)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dnzengou/sahly-su-chatbot/)-->
+<!-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dnzengou/sahly-su-chatbot/)-->
+
+* Jupyter Notebook [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dnzengou/sahly-su-chatbot/929af9ab96898236db7be4730940216e82e3533f?urlpath=lab%2Ftree%2FSahly.ipynb)
+
 * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xT_yb5oK6l8sp8ZBIAo4W28zQnzd0AXX)
 
 Du kan starta [sahly.ipynb](https://github.com/dnzengou/sahly-su-chatbot/blob/master/sahly.ipynb) som även innehåller steg för steg instruktioner.
